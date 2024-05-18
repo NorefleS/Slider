@@ -1,0 +1,141 @@
+.layout {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.images {
+    display: block;
+}
+
+.main__section2 {
+    height: 783px;
+    padding: 107px 134.5px 123.7px;
+    background-color: #131313;
+}
+
+.main__section2_container1 {
+    display: flex;
+    justify-content: end;
+    margin-right: 58px;
+    margin-bottom: 53px;
+}
+
+.main__section2_container2 {
+    display: flex;
+    gap: 50px;
+}
+
+.container1__list {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+}
+
+.container1__item {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+}
+
+.active-item {
+    text-decoration: underline;
+    text-underline-offset: 6.6px;
+    color: #e3b873;
+}
+
+.container1__item:hover {
+    text-decoration: underline;
+    text-underline-offset: 6.6px;
+    color: #e3b873;
+}
+
+.main__section2_info {
+    width: 442px;
+    height: 390px;
+}
+
+.main__section2_h2 {
+    margin-bottom: 34px;
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 139%;
+    text-transform: uppercase;
+    color: #e3b873;
+}
+
+.main__section2_text {
+    margin-bottom: 42px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 191%;
+    color: #fff;
+}
+
+.main__section2_feature {
+    height: 162px;
+    margin-bottom: 79.6px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 34px;
+}
+
+.main__section2_h3 {
+    font-family: "Yeseva One", serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 139%;
+    text-transform: uppercase;
+    color: #e3b873;
+}
+
+.main__section2_span {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 164%;
+    color: #fff;
+}
+
+.main__section2_switchingBlock {
+    width: 205.7px;
+    display: flex;
+    align-items: center;
+    gap: 29.5px;
+}
+
+.switching {
+    display: flex;
+    gap: 17.5px;
+}
+
+.switching__dot {
+    width: 9.57px;
+    height: 9.57px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+.switching__dot:hover {
+    background-color: #fff;
+}
+
+.active-dot {
+    background-color: #fff;
+}
+
+.arrowPrevious, .arrowNext {
+    cursor: pointer;
+}
+
+.slider {
+    width: 679px;
+    height: 482px;
+    background-image: url('./images/img1.png');
+}
